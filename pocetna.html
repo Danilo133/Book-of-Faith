@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+    <h1>Book Of Hope</h1>
+
+    <!-- Input za budžet i pokretanje igre -->
+    <div class="budget-container">
+        <input type="number" id="playerCredit" placeholder="Enter your budget (min 200)" />
+        <button id="startGame">Start Game</button>
+    </div>
+
+    <!-- Prikaz trenutnog kredita -->
+    <div id="currentCredit">Credit: 0</div>
+
+    <!-- Sidebar za izbor čipa -->
+    <div class="chip-selector-container">
+        <h3>Select Chip Value</h3>
+        <select id="chipSelector">
+            <!-- Dinamičko dodavanje opcija -->
+        </select>
+    </div>
+
+    <!-- Prikaz trenutnog čipa i opklade -->
+    <div class="chips-display">Chips: 0</div>
+    <div class="bet-display">Bet: 0</div>
+
+    <div class="slot-machine-container">
+        <div class="slot-machine" id="slotMachine">
+            <!-- Slots will be dynamically generated -->
+        </div>
+    </div>
+
+    <div class="controls">
+        <button class="button" id="spinButton">Spin</button>
+        <button class="button pause" id="pauseButton">Pause</button>
+        <button class="button extra-bet" id="extraBetButton">Extra Bet</button>
+    </div>
+
+    <script src="player.js"></script>
+    <script src="funkcija.js"></script>
+    <script src="logika.js"></script>
+</body>
+</html>

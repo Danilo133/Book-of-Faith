@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+    color: #ffd700;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.slot-machine-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.slot-machine {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 120px);
+    grid-auto-rows: 120px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+.slot {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #ffd700;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.slot:hover {
+    transform: scale(1.1);
+}
+
+.controls {
+    text-align: center;
+    margin: 20px;
+}
+
+.button {
+    background: #ffd700;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #000000;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: #ffbf00;
+}
+
+.pause {
+    background: #ff0000;
+    color: #ffffff;
+}
+
+.pause:hover {
+    background: #cc0000;
+}
+
+.extra-bet {
+    background: #00ff00;
+    color: #ffffff;
+}
+
+.extra-bet:hover {
+    background: #00cc00;
+}
+
+.chips-display,
+.bet-display {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-shadow: 2px 2px 5px #000000;
+}
+.player-section {
+    margin: 20px;
+    text-align: center;
+}
+
+#playerCredit {
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#currentCredit {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
