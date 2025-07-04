@@ -1,30 +1,20 @@
-# 🚀 Live Code Editor
+# 📜 Book of Hope - Slot Machine
 
-A real-time web development environment that allows you to write HTML, CSS, and JavaScript code with instant preview.
+**Online slot machine game built with HTML, CSS, and JavaScript.**
 
-![Live Editor Screenshot](screenshot.png) *(Add screenshot here)*
+## 🎰 Features
+- 5x3 slot grid with 10 different symbols
+- Win lines and payout system
+- Credit management system
+- Extra Bet option (adds extra column)
+- Special symbol rules ("nada" and "djole" appear once per column)
+- Bonus mechanic (every 75th spin guarantees 3+ "nada" symbols)
 
-## 🌟 Features
+## 🛠 Technologies
+- HTML5, CSS3, JavaScript (ES6)
+- Pure vanilla JS (no frameworks)
 
-- Real-time code preview
-- Syntax highlighting for HTML, CSS, and JavaScript
-- Auto-closing tags and brackets
-- Responsive layout
-- Clean, developer-friendly interface
-- Code autocompletion (CSS)
-
-## 🛠️ Technologies Used
-
-- **Code Editors**: CodeMirror (v6.65.7)
-- **Languages**: HTML5, CSS3, JavaScript
-- **Font**: Source Sans 3
-- **Preview System**: Iframe-based live reload
-
-## 📦 Installation
-
-No installation required! Simply open `index.html` in your browser.
-
-For development:
+## ⚙️ How to Run
+1. Clone repository:
 ```bash
-git clone https://github.com/your-username/live-code-editor.git
-cd live-code-editor
+cd final-project
